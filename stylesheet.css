@@ -1,0 +1,50 @@
+body {
+    background-image: url(assets/img/ebgbackground.png);
+    padding-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+                
+}
+
+.lead{
+    color: white;
+}
+
+.navbar-brand fw-bold {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.display-1 {
+    color: white;
+}
+
+.lead {
+    color: white;
+
+}
+
+.display-5  {
+    color: white;
+}
+
+.display-6  {
+    color: black;
+}
+
+.slider-c{
+    background-size: 100%;
+    background-image: url('./assets/img/ebgbackground.png');
+    animation: slide 8s 2s infinite;
+}
+
+@keyframes slide {
+    0%{background-image: url('./assets/img/ebgbackground.png');}
+    25%{background-image: url('./assets/img/bogotaparty.png');}
+}
